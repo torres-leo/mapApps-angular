@@ -1,0 +1,36 @@
+.map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.markers-container {
+  height: 250px;
+  overflow-y: auto;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.list-group {
+  cursor: pointer;
+
+  &-item {
+    color: white;
+    font-weight: 600;
+  }
+}
+
+button {
+  position: fixed;
+  top: 188px;
+  left: 20px;
+}
+
+.icon {
+  position: relative;
+  left: 18px;
+
+  &:hover {
+    color: rgb(235, 54, 54);
+  }
+}

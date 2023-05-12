@@ -1,0 +1,21 @@
+<div #map class="map"></div>
+
+<div class="markers-container" style="width: 130px">
+  <ul class="list-group">
+    <li
+      *ngFor="let m of Markers; let i = index"
+      class="list-group-item"
+      [ngStyle]="{ backgroundColor: m.color }"
+      (click)="goToMarker(m.marker)"
+    >
+      Marker: {{ i + 1 }}
+      <fa-icon
+        [icon]="trashIcon"
+        class="icon"
+        (click)="removeMarker(i)"
+      ></fa-icon>
+    </li>
+  </ul>
+</div>
+
+<button class="btn btn-primary" (click)="createMarker()">+ Add Marker</button>

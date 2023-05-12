@@ -1,0 +1,27 @@
+.map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.floating {
+  &-range {
+    background-color: white;
+    border-radius: 10px;
+    bottom: 50px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    left: 50px;
+    position: fixed;
+    width: 500px;
+    z-index: 1000;
+  }
+
+  &-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.bg-input {
+  background-color: rgba(105, 105, 105, 0.24);
+}

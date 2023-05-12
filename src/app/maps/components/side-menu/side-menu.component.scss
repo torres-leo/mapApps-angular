@@ -1,0 +1,19 @@
+.Menu {
+  &-item.active {
+    transition: 0.4s all;
+    .Menu-link {
+      color: white;
+    }
+  }
+
+  &-link {
+    color: black;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding: 8px;
+    text-decoration: none;
+    width: 100%;
+  }
+}
