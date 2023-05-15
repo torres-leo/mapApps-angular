@@ -1,4 +1,9 @@
 .Menu {
+  left: 20px;
+  position: fixed;
+  top: 20px;
+  z-index: 999;
+
   &-item.active {
     transition: 0.4s all;
     .Menu-link {

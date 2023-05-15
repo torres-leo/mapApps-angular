@@ -85,7 +85,7 @@ export class MarkersPageComponent implements AfterViewInit {
 
     this.map.flyTo({
       center: marker.getLngLat(),
-      zoom: 14,
+      zoom: 16,
     });
   }
 
